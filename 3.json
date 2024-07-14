@@ -1,5 +1,5 @@
 {
-    "spider": "https://raw.githubusercontent.com/susjzy/868/main/pg.jar",
+    "spider": "./pg.jar;47c1a28a30eabcad0cca6c6c77bbad83",
     "logo": "https://image.mooncloud.top/i/2024/07/04/jy5fm7.jpg",
     "sites": [
         {
