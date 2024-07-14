@@ -3,42 +3,41 @@
     "logo": "https://image.mooncloud.top/i/2024/07/04/jy5fm7.jpg",
     "sites": [
         {
-            "key": "配置",
-            "name": "YouTube代理设置",
-            "type": 3,
-            "api": "csp_Config",
-            "ext": {
-                "wgcf_xray_url": "./lib/xray.gz",
-                "wgcf_json_url": "./lib/wgcf.json",
-                "wgcf_vless_id": "de44b044-8f90-4e18-b742-16591667ff96",
-                "wgcf_vless_optname": "edgetunnel-free.pages.dev:2087",
-                "wgcf_vless_worker": "edgetunnel-free.pages.dev",
-                "wgcf_vless_path": "/?ed=2048",
-                "wgcf_vless_protocol": "vless",
-                "wgcf_vless_network": "ws",
-                "wgcf_vless_tls": true,
-                "singbox_url": "./lib/sing-box.gz",
-                "singbox_subscribe_url": "",
-                "singbox_clash2singbox_url": "./lib/clash2singbox.gz",
-                "singbox_template_url": "./lib/singbox.json"
-            }
-        },
-        {
-            "key": "Youtube",
-            "name": "YouTube_Premium",
-            "type": 3,
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            },
-            "api": "csp_Youtube",
-            "ext": {
-                "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,邁克爾傑克遜,張瑋伽",
-                "codecs": "av",
-                "json": "https://raw.githubusercontent.com/susjzy/868/main/lib/youtube.json",
-                "proxy": "proxy"
-            }
-        },
+			"key": "网盘配置",
+			"name": "网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"ext":"./lib/tokenm.json",
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
+		},
+        {{
+			"key":"Youtube",
+			"name":"Youtube",
+			"type":3,
+			"api": "csp_Youtube",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"timeout": 120,
+			"ext":{
+				"token":"./lib/tokenm.json",
+				"json":"https://raw.githubusercontent.com/susjzy/868/main/lib/youtube.json",
+				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+				"codecs":"",
+				"proxy":"proxy",
+				"danmu":true
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.77
+			}
+		},
         {
             "key": "官源",
             "name": "官源",
