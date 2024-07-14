@@ -18,7 +18,7 @@
                 "wgcf_vless_network": "ws",
                 "wgcf_vless_tls": true,
                 "singbox_url": "./lib/sing-box.gz",
-                "singbox_subscribe_url": "https://sub.cokecloud.world/api/v1/client/subscribe?token=466e09c568d889253b295f347cb00fc1",
+                "singbox_subscribe_url": "",
                 "singbox_clash2singbox_url": "./lib/clash2singbox.gz",
                 "singbox_template_url": "./lib/singbox.json"
             }
