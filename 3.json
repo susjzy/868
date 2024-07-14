@@ -1,5 +1,5 @@
 {
-    "spider": "./pg.jar;47c1a28a30eabcad0cca6c6c77bbad83",
+    "spider": "https://raw.githubusercontent.com/susjzy/868/main/pg.jar;md5;47c1a28a30eabcad0cca6c6c77bbad83",
     "logo": "https://image.mooncloud.top/i/2024/07/04/jy5fm7.jpg",
     "sites": [
         {
@@ -35,7 +35,7 @@
             "ext": {
                 "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,邁克爾傑克遜,張瑋伽",
                 "codecs": "av",
-                "json": "./lib/youtube.json",
+                "json": "https://raw.githubusercontent.com/susjzy/868/main/lib/youtube.json",
                 "proxy": "proxy"
             }
         },
