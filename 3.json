@@ -26,7 +26,7 @@
             "timeout": 120,
             "ext": {
                 "token": "./lib/tokenm.json",
-                "type": "直播#新闻#剧集#动画片#卡通#电影#综艺#纪录片#发现新视频#音乐#体育#动物#风光#放松#4K#HDR#movie#music#노브라 노팬티#tiktok#shorts#beautiful",
+                "type": "全部#最新|推薦#直播#新闻#剧集#动画片#卡通#电影#综艺#纪录片#发现新视频#音乐#体育#动物#风光#4K#HDR#movie#music#노브라 노팬티#mv#shorts#beautiful",
                 "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
                 "codecs": "",
                 "proxy": "proxy",
@@ -103,7 +103,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json"
+            "ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json$$$WOBG"
         },
         {
             "key": "yydsys",
@@ -136,7 +136,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$noproxy$$$1"
+            "ext": "./lib/tokenm.json$$$https://www.hdhive.online/$$$noproxy$$$1"
         },
         {
             "key": "NanGua",
@@ -176,6 +176,25 @@
             "searchable": 1,
             "changeable": 1,
             "playUrl": "https://jiexi.okzyw.info/m3u8/?url="
+        },
+        {
+            "key": "华为采集",
+            "name": "华为采集",
+            "type": 1,
+            "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
+            "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+            "playerType": 1,
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "黑木耳采集",
+            "name": "黑木耳采集",
+            "type": 1,
+            "api": "https://json.heimuer.xyz/api.php/provide/vod/?ac=list",
+            "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "hipy_js_360影视[官]",
@@ -381,6 +400,24 @@
             "changeable": 0
         },
         {
+            "key": "TingFM",
+            "name": "🎧TingFM",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://cn.tingfm.com",
+                "直接播放": "1",
+                "数组": "class=\"ax-grid-block ax-col-5-avg ax-space-lg\"&&</div>",
+                "标题": "title=\"&&\"",
+                "副标题": ">&&</p>",
+                "图片": "src=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "祝各位大🐔吧们听的愉快！！！",
+                "分类url": "http://www.guangbomi.com/{cateId}.html?page={catePg}",
+                "分类": "中央台$fmlist223#省台$fmlist220#省会台$fmlist224#地市台$fmlist221#区县台$fmlist222#新闻综合$fmlist20#交通$fmlist58#音乐$fmlist57#经济$fmlist56#生活$fmlist59#文艺$fmlist60#都市$fmlist61#故事$fmlist62#旅游$fmlist63#乡村$fmlist64#娱乐$fmlist65#戏曲$fmlist66#体育$fmlist67#评书相声$fmlist69#青少科教$fmlist70#网络电台$fmlist113#汽车$fmlist134#其他类型$fmlist135"
+            }
+        },
+        {
             "key": "Xojav",
             "name": "XOJav",
             "type": 3,
@@ -453,6 +490,21 @@
                 "ratio": 1.485
             },
             "ext": "proxy"
+        },
+        {
+            "key": "csp_JavDb",
+            "name": "JavDb",
+            "type": 3,
+            "api": "csp_JavDb",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": "https://javdb.com$$$proxy"
         },
         {
             "key": "Jable",
