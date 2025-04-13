@@ -15,7 +15,6 @@
             "name": "💤酷狗·音乐💤",
             "type": 3,
             "api": "csp_Music",
-           // "jar": ./jar/spider.jar;md5;ac7e6b7c1bffc385be0082839640eccc",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
