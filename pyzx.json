@@ -85,8 +85,8 @@
             }
         },
         {
-            "key": "嗷呜动漫",
-            "name": "嗷呜动漫",
+            "key": "零度影视",
+            "name": "零度影视",
             "type": 3,
             "api": "https://github.catvod.com/https://raw.githubusercontent.com/susjzy/PyramidStore/refs/heads/main/plugin/app/零度影视APP.py",
             "searchable": 1,
